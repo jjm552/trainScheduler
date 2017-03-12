@@ -1,0 +1,51 @@
+body{
+	background: url(../image/bg1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 960px;
+	height: 100%;
+	margin: auto;
+	background-color: grey;
+}
+
+#ctsPanel,
+#atPanel{
+	background: rgba(57, 101, 116,0.8);
+	color: white;
+}
+#trainName-input,
+#destination-input,
+#firstTrainTime-input,
+#frequency-input
+{
+	background: rgba(169, 219, 236,0.8);
+	color: white;
+}
+
+.jumbotron{
+	background: rgba(51,73,81,0.8);
+	color: rgb(220, 225, 226);
+
+}
+
+#currentSchedule{
+	background: rgba(51,73,81,0.8);
+	color: white;
+}
+
+#addTrain{
+	background: rgba(51,73,81,0.8);
+	color: white;
+}
+
+@media only screen and (max-width: 980px) {	
+}
+
+@media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 640px){
+	
+}
